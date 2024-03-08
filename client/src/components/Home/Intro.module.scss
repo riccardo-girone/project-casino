@@ -58,6 +58,22 @@
         filter: brightness(70%);
     }
 
+    .nameContainer {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: clamp(1rem, 2.3vw, 15rem); 
+        text-transform: uppercase;
+        color: #1E1E1E;
+        line-height: clamp(1rem, 1.8vw, 10rem);
+
+        .gironeWrapper {
+            position: absolute;
+            top: 8vh;
+            left: clamp(30rem, 72vw, 113.5rem);
+        }
+    }
+
     .explore {
         text-transform: uppercase;
         text-decoration: underline;
