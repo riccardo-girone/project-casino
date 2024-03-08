@@ -42,7 +42,7 @@
         position: absolute;
         top: 27.5vh;
         left: clamp(15rem, 21vw, 100rem);
-        height: clamp(12rem, 6vw, 40rem);
+        height: clamp(7rem, 7.7vw, 40rem);
         width: clamp(13rem, 16vw, 40rem);
         object-fit: cover;
         filter: brightness(80%);
@@ -51,8 +51,8 @@
     .img2 {
         position: absolute;
         top: 49.8vh;
-        left: clamp(15rem, 80vw, 113.5rem);
-        height: clamp(12rem, 6vw, 40rem);
+        left: clamp(30rem, 72vw, 113.5rem);
+        height: clamp(7rem, 7.7vw, 40rem);
         width: clamp(13rem, 16vw, 40rem);
         object-fit: cover;
         filter: brightness(70%);
