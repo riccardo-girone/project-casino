@@ -7,34 +7,34 @@
     .content {
         font-family: "Cormorant Garamond", serif;
         font-weight: 400;
-        font-size: 23vh;
+        font-size: clamp(10rem, 12vw, 40rem); 
         text-transform: uppercase;
         font-style: normal;
         color: #FF4D00;
-        line-height: 10vh;
-
+        line-height: clamp(1rem, 5vw, 20rem);
+        
         .text1 {
             position: absolute;
-            top: 7rem;
-            left: 17rem;
+            top: 8vh;
+            left: 16vw;
         }
         
         .text2 {
             position: absolute;
-            top: 26rem;
-            left: 64rem;
+            top: 30vh;
+            left: clamp(30rem, 42.5vw, 100rem);
         }
         
         .text3 {
             position: absolute;
-            top: 46rem;
-            left: 17rem;
+            top: 52vh;
+            left: 16vw;
         }
         
         .text4 {
             position: absolute;
-            top: 64rem;
-            left: 64rem;
+            top: 74vh;
+            left: clamp(30rem, 42.5vw, 100rem);
         }
     }
 

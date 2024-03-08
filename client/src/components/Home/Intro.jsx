@@ -11,10 +11,6 @@ export default function Intro() {
                     <div className={styles.text3}>project</div>
                     <div className={styles.text4}>casino</div>
                 </div>
-
-                <div className='img'>
-
-                </div>
             </div>
 
             <div className={styles.explore}>
