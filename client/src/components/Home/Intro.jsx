@@ -13,6 +13,11 @@ export default function Intro() {
                 </div>
             </div>
 
+            <div className={styles.imgContainer}>
+                <img className={styles.img1} src="./home-img/img1.jpg" alt="img"/>
+                <img className={styles.img2} src="./home-img/img2.jpg" alt="img"/>
+            </div>
+
             <div className={styles.explore}>
                 <div>explore</div>
             </div>
