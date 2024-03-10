@@ -1,11 +1,14 @@
+'use client'
 import styles from './Nav.module.scss'
+import { useState } from 'react';
 
 export default function Nav() {
-    return(
-        <div>
-            <div className={styles.nav}>
-                <div className={styles.icon}></div>
-            </div>
+
+    const [isActive, setIsActive] = useState(false);
+
+    return (
+        <div onClick={() => {setIsActive(!isActive)}} className={styles.button}>
+            <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
         </div>
     );
 }
