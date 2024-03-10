@@ -1,8 +1,8 @@
-
+import { GoArrowDown } from "react-icons/go";
 import styles from './Intro.module.scss';
 
 export default function Intro() {
-    return(
+    return(  
         <div className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.textContainer}>
@@ -32,8 +32,13 @@ export default function Intro() {
                 <img className={styles.img2} src="./home-img/img2.jpg" alt="img"/>
             </div>
 
-            <div className={styles.explore}>
-                <div>explore</div>
+            <div className={styles.arrowRedirect}>
+                <div className={styles.explore}>
+                    <div>explore</div>
+                </div>
+
+
+                <img className={styles.arrow} src="./icon/down-arrow.png" alt="arrow"/>
             </div>
         </div>
     );

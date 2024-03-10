@@ -1,5 +1,6 @@
 'use client';
 import { useEffect } from 'react';
+import Code from '@/components/CodeProject/Code';
 
 export default function Gallery() {
     useEffect( () => {
@@ -13,7 +14,7 @@ export default function Gallery() {
 
     return (
         <main>
-            
+            <Code/>
         </main> 
     );
 }

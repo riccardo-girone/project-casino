@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-
+    
     .content {
         font-family: "Cormorant Garamond", serif;
         font-weight: 400;
@@ -80,10 +80,18 @@
         }
     }
 
-    .explore {
-        text-transform: uppercase;
-        text-decoration: underline;
+    .arrowRedirect {
         position: absolute;
-        bottom: 8vh;
+        bottom: 1vh;
+        
+        .explore {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+
+        .arrow {
+            height: 5vh;
+        }
     }
 }
