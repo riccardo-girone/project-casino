@@ -1,11 +1,9 @@
-.navContainer {
-    width: 7vh;
-    background-color: #1e1e1e;
-    position: absolute;
-    left: 0;
-    top: 0;
-    
-    .nav {
-        height: 100vh;
-    }
+.nav {
+    width: 5vh;
+    background-color: #FF4D00;
+    position: fixed;
+    left: 1rem;
+    top: 1rem;
+    height: 5vh;
+    border-radius: 50%;
 }
