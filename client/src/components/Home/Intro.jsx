@@ -1,5 +1,5 @@
-import { GoArrowDown } from "react-icons/go";
 import styles from './Intro.module.scss';
+import Link from 'next/link'
 
 export default function Intro() {
     return(  
@@ -33,12 +33,13 @@ export default function Intro() {
             </div>
 
             <div className={styles.arrowRedirect}>
-                <div className={styles.explore}>
-                    <div>explore</div>
-                </div>
+                <Link href="/gallery"> 
+                    <div className={styles.explore}>
+                        <div>explore</div>
+                    </div>
 
-
-                <img className={styles.arrow} src="./icon/down-arrow.png" alt="arrow"/>
+                    <img className={styles.arrow} src="./icon/down-arrow.png" alt="arrow"/>
+                </Link>
             </div>
         </div>
     );
