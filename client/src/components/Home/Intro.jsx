@@ -37,7 +37,7 @@ export default function Intro() {
                     <div className={styles.explore}>
                         <div>explore</div>
                     </div>
-
+                    
                     <img className={styles.arrow} src="./icon/down-arrow.png" alt="arrow"/>
                 </Link>
             </div>
