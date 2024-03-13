@@ -16,7 +16,7 @@
         .text1 {
             position: absolute;
             top: 8vh;
-            left: 16vw;
+            left: 12.5vw;
         }
         
         .text2 {
@@ -28,7 +28,7 @@
         .text3 {
             position: absolute;
             top: 52vh;
-            left: 16vw;
+            left: 12.5vw;
         }
         
         .text4 {
@@ -51,7 +51,7 @@
     .img2 {
         position: absolute;
         top: 49.8vh;
-        left: clamp(30rem, 72vw, 113.5rem);
+        left: clamp(30rem, 72vw, 108.5rem);
         height: clamp(7rem, 7.7vw, 40rem);
         width: clamp(13rem, 16vw, 40rem);
         object-fit: cover;
@@ -70,7 +70,7 @@
         .gironeWrapper {
             position: absolute;
             top: 8vh;
-            left: clamp(30rem, 72vw, 113.5rem);
+            left: clamp(30rem, 72vw, 108rem);
         }
 
         .telloliWrapper {
