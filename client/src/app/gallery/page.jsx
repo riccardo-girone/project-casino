@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import Code from '@/components/CodeProject/Code';
+import Code from '../../components/CodeProject/Code';
 
 export default function Gallery() {
     useEffect( () => {

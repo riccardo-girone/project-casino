@@ -1,7 +1,13 @@
 "use client"
+import { useEffect } from "react";
 import styles from "./template.module.css"
+import { animatePageIn } from "../utils/animate";
+import React from "react";
 
-export default function Template({ children }) {
+export default function Template({ children }: { children: React.ReactNode }) {
+    useEffect(() => {
+        animatePageIn()
+    }, [])
     return (
         <div>
             <div 
@@ -27,4 +33,4 @@ export default function Template({ children }) {
             { children }
         </div>
     );
-  }
+}
