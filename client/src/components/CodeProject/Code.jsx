@@ -1,6 +1,8 @@
 import styles from './Code.module.scss'
 import React, { useState, useLayoutEffect, useRef } from 'react'
 import Image from 'next/image';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
@@ -25,6 +27,21 @@ const projects = [
 ]
 
 export default function Code() {
+    
+    const [selectedProject, setSelectedProject] = useState(0);
+    const container = useRef(null);
+    const imageContainer = useRef(null);
+
+    useLayoutEffect( () => {
+        gsap.registerPlugin(ScrollTrigger);
+        ScrollTrigger.create({
+            trigger: imageContainer.current,
+            pin: true,
+            start: "top-=100px",
+            end: document.body.offsetHeight - window.innerHeight - 50,
+        })
+    }, [])
+
     return (
         <div ref={container} className={styles.projects}>
             <div className={styles.projectDescription}>
@@ -49,7 +66,7 @@ export default function Code() {
                 <div className={styles.projectList}>
                     {
                         projects.map( (project, index) => {
-                            return <div className={styles.projectEl}>
+                            return <div key={index} onMouseOver={() => {setSelectedProject(index)}} className={styles.projectEl}>
                                 <h2>{project.title}</h2>
                             </div>
                         })
