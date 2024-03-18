@@ -2,12 +2,17 @@
 import { useEffect } from "react";
 import styles from "./template.module.css"
 import { animatePageIn } from "../utils/animate";
+import { animatePageOut } from "../utils/animate";
 import React from "react";
 
 export default function Template({ children }: { children: React.ReactNode }) {
     useEffect(() => {
-        animatePageIn()
-    }, [])
+        animatePageOut();
+        
+        return () => {
+            animatePageIn();
+        };
+    }, []);
     return (
         <div>
             <div 
