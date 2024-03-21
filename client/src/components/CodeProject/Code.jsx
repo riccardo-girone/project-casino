@@ -6,23 +6,28 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const projects = [
     {
-        title: "Salar de Atacama",
-        src: "salar_de_atacama.jpg"
+        title: "Main",
+        src: "img1.jpg"
     },
 
     {
-        title: "Valle de la luna",
-        src: "valle_de_la_muerte.jpeg"
+        title: "Roulette",
+        src: "img2.jpg"
     },
 
     {
-        title: "Miscanti Lake",
-        src: "miscani_lake.jpeg"
+        title: "Black jack",
+        src: "img1.jpg"
     },
 
     {
-        title: "Miniques Lagoons",
-        src: "miniques_lagoon.jpg"
+        title: "Login & Menu",
+        src: "img2.jpg"
+    },
+
+    {
+        title: "Scommesse",
+        src: "img1.jpg"
     },
 ]
 
@@ -47,7 +52,7 @@ export default function Code() {
             <div className={styles.projectDescription}>
                    <div ref={imageContainer} className={styles.imageContainer}>
                         <Image 
-                            src={`/images/${projects[selectedProject].src}`}
+                            src={`/home-img/${projects[selectedProject].src}`}
                             fill={true}
                             alt="image"
                             priority={true}
@@ -61,16 +66,16 @@ export default function Code() {
                     <div className={styles.column}>
                         <p>Some, like the southern viscacha, vicuña and Darwins rhea, are classified as endangered species. Others, such as Andean goose, horned coot, Andean gull, puna tinamou and the three flamingo species inhabiting in Chile (Andean flamingo, Chilean flamingo, and Jamess flamingo) are considered vulnerable.</p>
                     </div>
-                </div>
+            </div>
 
-                <div className={styles.projectList}>
-                    {
-                        projects.map( (project, index) => {
-                            return <div key={index} onMouseOver={() => {setSelectedProject(index)}} className={styles.projectEl}>
-                                <h2>{project.title}</h2>
-                            </div>
-                        })
-                    }
+            <div className={styles.projectList}>
+                {
+                    projects.map( (project, index) => {
+                        return <div key={index} onMouseOver={() => {setSelectedProject(index)}} className={styles.projectEl}>
+                            <h2>{project.title}</h2>
+                        </div>
+                    })
+                }
             </div>
         </div>
     );
