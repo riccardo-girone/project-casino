@@ -43,7 +43,7 @@ export default function Code() {
             trigger: imageContainer.current,
             pin: true,
             start: "top-=100px",
-            end: document.body.offsetHeight - window.innerHeight - 50,
+            end: 450,
         })
     }, [])
 
@@ -80,5 +80,3 @@ export default function Code() {
         </div>
     );
 }
-
-//prova commit mac
