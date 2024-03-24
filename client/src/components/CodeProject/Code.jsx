@@ -3,27 +3,34 @@ import React, { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'; // Import ScrollTrigger from correct path
+import Link from 'next/link'
 
 const projects = [
     {
         title: "Main",
-        src: "img1.jpg"
+        src: "img1.jpg",
+        link: "/main"
+        
     },
     {
         title: "Roulette",
-        src: "img2.jpg"
+        src: "img2.jpg",
+        link: "/Roulette"
     },
     {
         title: "Black jack",
-        src: "img1.jpg"
+        src: "img1.jpg",
+        link: "/Blackjack"
     },
     {
         title: "Login & Menu",
-        src: "img2.jpg"
+        src: "img2.jpg",
+        link: "/Login&Menu"
     },
     {
         title: "Scommesse",
-        src: "img1.jpg"
+        src: "img1.jpg",
+        link: "/Scommesse"
     },
 ];
 
@@ -59,7 +66,9 @@ export default function Code() {
             <div className={styles.projectList}>
                 {projects.map((project, index) => (
                     <div key={index} onMouseOver={() => setSelectedProject(index)} className={styles.projectEl}>
-                        <h2>{project.title}</h2>
+                        <Link href={project.link} style={{ textDecoration: 'none', color: '#1e1e1e'}}>
+                            <h2>{project.title}</h2>
+                        </Link>
                     </div>
                 ))}
             </div>

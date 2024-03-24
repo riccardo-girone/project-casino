@@ -1,4 +1,3 @@
-
 .projects{
     position: relative;
     color: black;
@@ -24,8 +23,6 @@
         
     }
     
-    
-    
     .projectList{
         display: flex;
         flex-direction: column;
@@ -33,12 +30,12 @@
 
         .projectEl{
             width: 100%;
-            color: #1e1e1e;
             text-transform: uppercase;
             font-size: 3vw;
             border-bottom: 1px solid #1e1e1e;
             display: flex;
             justify-content: flex-end;
+            text-decoration: none;
 
             h2 {
                 margin: 0px;
