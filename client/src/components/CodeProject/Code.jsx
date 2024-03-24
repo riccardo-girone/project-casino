@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import styles from './Code.module.scss';
 import Image from 'next/image';
 import Link from 'next/link'
@@ -32,12 +33,14 @@ const projects = [
 ];
 
 export default function Code() {
+    const [selectedProject, setSelectedProject] = useState(0);
+
     return (
         <div className={styles.projects}>
             <div className={styles.projectDescription}>
                 <div className={styles.imageContainer}>
                     <Image 
-                        src="/home-img/{projects.src}"
+                        src={`/home-img/${projects[selectedProject].src}`}
                         fill={true}
                         alt="image"
                         priority={true}
