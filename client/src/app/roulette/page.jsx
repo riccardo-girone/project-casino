@@ -1,8 +1,8 @@
 'use client';
 import { useEffect } from 'react';
-import Mainp from '../../components/Project-main/Main.jsx';
+import Roulette from '../../components/Project-roulette/Roulette'
 
-export default function page() {
+export default function Roulette() {
     useEffect( () => {
         (
           async () => {
@@ -14,7 +14,7 @@ export default function page() {
 
     return (
         <main>
-            <Mainp/>
+            <Roulette/>
         </main> 
     );
 }
