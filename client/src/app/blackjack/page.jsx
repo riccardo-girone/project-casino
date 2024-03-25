@@ -1,8 +1,8 @@
-'use client';
+'use client'
 import { useEffect } from 'react';
-import Mainp from '../../../components/Project-main/Main.jsx';
+import Bj from '../../components/Project-BJ/Bj'
 
-export default function page() {
+export default function Page() {
     useEffect( () => {
         (
           async () => {
@@ -12,9 +12,9 @@ export default function page() {
         )()
     }, [])
 
-    return (
+    return(
         <main>
-            <Mainp/>
-        </main> 
+            <Bj/>
+        </main>
     );
 }

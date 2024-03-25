@@ -7,18 +7,18 @@ const projects = [
     {
         title: "Main",
         src: "img1.jpg",
-        link: "./gallery/main"
+        link: "/main"
         
     },
     {
         title: "Roulette",
         src: "img2.jpg",
-        link: "/Roulette"
+        link: "/roulette"
     },
     {
         title: "Black jack",
         src: "img1.jpg",
-        link: "/Blackjack"
+        link: "/blackjack"
     },
     {
         title: "Login & Menu",
