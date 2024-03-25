@@ -1,6 +1,6 @@
 'use client';
 import { useEffect } from 'react';
-import Roulette from '../../components/Project-roulette/Roulette'
+import Roulette from '../../../components/Project-roulette/Roulette'
 
 export default function Roulette() {
     useEffect( () => {

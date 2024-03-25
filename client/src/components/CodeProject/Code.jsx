@@ -7,7 +7,7 @@ const projects = [
     {
         title: "Main",
         src: "img1.jpg",
-        link: "/main"
+        link: "./gallery/main"
         
     },
     {
