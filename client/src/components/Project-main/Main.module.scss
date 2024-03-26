@@ -1,0 +1,17 @@
+.containerWrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10rem;
+
+    .class {
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 400;
+        font-size: clamp(10rem, 12vw, 40rem); 
+        text-transform: uppercase;
+        font-style: normal;
+        color: #FF4D00;
+        line-height: clamp(1rem, 5vw, 20rem);
+    }
+}
