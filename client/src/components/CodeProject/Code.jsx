@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './Code.module.scss';
 import Image from 'next/image';
 import Link from 'next/link'
+import Footer from '../footer/Footer.jsx'
 
 const projects = [
     {
@@ -56,6 +57,8 @@ export default function Code() {
                     </div>
                 ))}
             </div>
+
+            <Footer/>
         </div>
     );
 }
