@@ -14,17 +14,18 @@
         .class {
             font-family: "Cormorant Garamond", serif;
             font-weight: 400;
-            font-size: clamp(10rem, 7vw, 40rem); 
+            font-size: clamp(7rem, 10vw, 40rem); 
             text-transform: uppercase;
             font-style: normal;
             color: #FF4D00;
-            line-height: clamp(1rem, 10vw, 20rem);
+            line-height: clamp(8rem, 8vw, 20rem);
         }
-
+        
         .textContainer {
             font-family: "Montserrat", sans-serif;
-            margin-top: 5rem;
-            max-width: 35rem;
+            font-size: clamp(1rem, 1vw, 10rem); 
+            margin-top: clamp(2rem, 5vw, 10rem);
+            max-width: clamp(45rem, 35vw, 65rem);
         }
     }
 
