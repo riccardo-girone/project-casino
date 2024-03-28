@@ -1,13 +1,19 @@
 .container {
-    height: 10rem;
+    height: clamp(2rem, 5vw, 5rem);
     background-color: #1e1e1e;
     width: 100vw;
     position: absolute;
-    left: 0px;
+    right: 0px;
     margin-top: 3rem;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     .navContent {
+        font-family: "Montserrat", sans-serif;
+        font-size: clamp(0.2rem, 1vw, 0.7rem); 
+        font-weight: 400;
         text-align: center;
-        color: red;
+        color: #ebebe1;
     }
 }
