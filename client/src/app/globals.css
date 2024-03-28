@@ -6,3 +6,20 @@ body {
     background-color: #ebebe1;
     text-decoration: none;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ebebe1;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(176, 176, 176);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(159, 159, 159);
+}
