@@ -22,12 +22,12 @@ const projects = [
         link: "/blackjack"
     },
     {
-        title: "Login & Menu",
+        title: "Utente",
         src: "img2.jpg",
         link: "/Login&Menu"
     },
     {
-        title: "Scommesse",
+        title: "Puntate",
         src: "img1.jpg",
         link: "/Scommesse"
     },
