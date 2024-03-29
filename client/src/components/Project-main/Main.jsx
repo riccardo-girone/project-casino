@@ -1,5 +1,4 @@
 import styles from './Main.module.scss';
-import Frame1 from '../codeFrame/Codeframe'
 
 export default function Main() {
     return (
@@ -16,7 +15,7 @@ export default function Main() {
             </div>
 
             <div className={styles.rightContainer}>
-                <Frame1/>
+                <div className={styles.placeolder}></div>
             </div>
         </div>
     );

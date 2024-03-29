@@ -1,8 +1,8 @@
 .containerWrapper {
     display: flex;
     height: 100vh;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: clamp(4rem, 7vw, 10rem);
+    margin-right: clamp(4rem, 7vw, 10rem);
 
     .leftContent {
         height: 100vh;
@@ -33,6 +33,15 @@
     .rightContainer {
         height: 100vh;
         width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
         
+        .placeolder {
+            height: clamp(20rem, 45vw, 70rem);
+            width: clamp(15rem, 32vw, 50rem);
+            background-color: rgba(0, 0, 0, 0.822);
+            border-radius: 20px;
+        }
     }
 }
