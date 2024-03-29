@@ -1,5 +1,6 @@
 import styles from './Main.module.scss';
 import CodeEx from './codeExplenetion/CodeEx'
+import Footer from '../footer/Footer.jsx';
 
 export default function Main() {
     return (
@@ -22,6 +23,7 @@ export default function Main() {
             </div>
 
             <CodeEx/>
+            <Footer/>
         </>
     );
 }
