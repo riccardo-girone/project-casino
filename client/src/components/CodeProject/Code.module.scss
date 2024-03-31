@@ -20,6 +20,16 @@
                 object-fit: cover;
             }
         }
+
+        .textContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 30rem;
+            gap: 4rem;
+            height: 80%;
+        }
         
     }
     

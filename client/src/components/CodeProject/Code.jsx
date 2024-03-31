@@ -47,6 +47,15 @@ export default function Code() {
                         priority={true}
                     />
                 </div>
+
+                <div className={styles.textContainer}>
+                    <div className={styles.text}>
+                        <div> 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum nulla.  
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div className={styles.projectList}>
                 {projects.map((project, index) => (
