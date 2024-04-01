@@ -25,10 +25,17 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            flex-direction: column;
-            max-width: 30rem;
-            gap: 4rem;
+            
             height: 80%;
+            width: 50%;
+
+            .text {
+                text-transform: uppercase;
+                font-family: "Montserrat", sans-serif;
+                font-size: clamp(1rem, 3.9vw, 10rem); 
+                font-weight: 900;
+                color: #1e1e1e;
+            }
         }
         
     }
