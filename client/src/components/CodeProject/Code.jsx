@@ -6,23 +6,23 @@ import Footer from '../footer/Footer.jsx'
 
 const projects = [
     {
-        title: "Main",
+        title: "Intro",
         src: "img1.jpg",
         link: "/main"
         
     },
     {
-        title: "Roulette",
+        title: "Utente",
         src: "img2.jpg",
         link: "/roulette"
     },
     {
-        title: "Black jack",
+        title: "Roulette",
         src: "img1.jpg",
         link: "/blackjack"
     },
     {
-        title: "Utente",
+        title: "Black jack",
         src: "img2.jpg",
         link: "/Login&Menu"
     },

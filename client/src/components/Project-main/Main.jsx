@@ -7,8 +7,8 @@ export default function Main() {
         <>
             <div className={styles.containerWrapper}>
                 <div className={styles.leftContent}>
-                    <div className={styles.class}>class</div>
-                    <div className={styles.class}>main</div>
+                    <div className={styles.class}>Intro</div>
+                    
 
                     <div className={styles.textContainer}>
                         <div className={styles.text}>
