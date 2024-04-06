@@ -17,12 +17,12 @@ const projects = [
         link: "/roulette"
     },
     {
-        title: "Roulette",
+        title: "Blackjack",
         src: "img1.jpg",
         link: "/blackjack"
     },
     {
-        title: "Black jack",
+        title: "Roulette",
         src: "img2.jpg",
         link: "/Login&Menu"
     },
