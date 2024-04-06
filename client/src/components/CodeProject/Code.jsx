@@ -14,7 +14,7 @@ const projects = [
     {
         title: "Utente",
         src: "img2.jpg",
-        link: "/roulette"
+        link: "/utente"
     },
     {
         title: "Blackjack",
@@ -24,12 +24,12 @@ const projects = [
     {
         title: "Roulette",
         src: "img2.jpg",
-        link: "/Login&Menu"
+        link: "/roulette"
     },
     {
         title: "Puntate",
         src: "img1.jpg",
-        link: "/Scommesse"
+        link: "/puntate"
     },
 ];
 

@@ -1,0 +1,42 @@
+.container {
+    height: 90vh;
+    margin-left: clamp(4rem, 7vw, 10rem);
+    margin-right: clamp(4rem, 7vw, 10rem);
+    font-family: "Montserrat", sans-serif;
+    
+    .title {
+        font-size: clamp(1rem, 3vw, 10rem);
+        font-weight: 800;
+        color: #1e1e1e;
+        margin-top: clamp(2rem, 5vw, 10rem);
+        text-transform: uppercase;
+        margin-bottom: 5rem;
+    }
+
+    .contentContainer {
+        margin-left: clamp(4rem, 3vw, 10rem);
+        margin-right: clamp(4rem, 3vw, 10rem);
+        
+        
+        .codeWrapper {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-top: 5rem;
+            margin-bottom: 5rem;
+            .codeContainer {
+                height: clamp(10rem, 12vw, 35rem);
+                width: clamp(15rem, 40vw, 60rem);
+                background-color: rgba(0, 0, 0, 0.822);
+                border-radius: 20px;
+            }
+        }
+    
+        .contentText {
+            font-size: clamp(1rem, 1vw, 5rem);
+            font-weight: 400;
+            color: #1e1e1e;
+        }
+    }
+}
