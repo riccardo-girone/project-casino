@@ -8,10 +8,12 @@ body {
 }
 
 code {
-    border: 1px solid rgb(161, 161, 161);
-    background-color: lightgray;
+    
+    background-color: #373737da;
+    color: white;
     border-radius: 7px;
     font-size: clamp(0.8rem, 1vw, 1.2rem);
+    padding: 4px;
 }
 
 ::-webkit-scrollbar {

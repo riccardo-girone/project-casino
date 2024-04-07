@@ -10,20 +10,16 @@ export default function CodeEx() {
             <div className={styles.contentContainer}>
                 <div className={styles.contentText}>
                     <div>
-                        come prima cosa il main e minimale, il main runna la classe utente
+                        la classe Main è veramente semplice e concisa, istanziando la classe Utenti e
+                        richiamando il metodo <code>estione()</code> possiamo dare il via al gioco.
+                        La caratteristica è che quando istanzio la classe utenti devo passargli un parametro
+                        che indica il nome del file su cui andrà a salvare tutte le registrazioni.
                     </div>
                 </div>
 
                 <div className={styles.codeWrapper}>
                     <div className={styles.codeContainer}>
 
-                    </div>
-                </div>
-            
-
-                <div className={styles.contentText}>
-                    <div>
-                        Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum nulla. adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum
                     </div>
                 </div>
             </div>
