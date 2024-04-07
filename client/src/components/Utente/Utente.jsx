@@ -18,7 +18,7 @@ export default function Utente() {
                 </div>
 
                 <div className={styles.rightContainer}>
-                    <div className={styles.placeolder}></div>
+                    <img src="/project-img/img5-u.png" alt="img" />
                 </div>
             </div>
 

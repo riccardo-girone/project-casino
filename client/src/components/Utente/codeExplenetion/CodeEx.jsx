@@ -20,7 +20,7 @@ export default function CodeEx() {
                         Es: premo 1 e mi fa registrare richiamando il metodo <code>registrati()</code>              
                     </div>
                         <div className={styles.codeWrapper}>
-                            <div className={styles.codeContainer}></div>
+                            <img src="/project-img/img1-u.png" alt="img" />
                         </div>
                     <div>
                         2) <code>registrati()</code>: il metodo registrati sostanzialmente serve a far registrare un
@@ -35,9 +35,8 @@ export default function CodeEx() {
                         facciamo scrivere l'utente nel file tramite un semplice comando <code>write.write(utente + “\n”)</code>
 
                     </div>
-
                         <div className={styles.codeWrapper}>
-                            <div className={styles.codeContainer}></div>
+                            <img src="/project-img/img2-u.png" alt="img" />
                         </div>
                     <div>
                         3)<code>accedi()</code>: il metodo accedi serve a far accedere gli utenti che hanno già creato
@@ -61,7 +60,7 @@ export default function CodeEx() {
                     </div>
 
                     <div className={styles.codeWrapper}>
-                        <div className={styles.codeContainer}></div>
+                        <img src="/project-img/img3-u.png" alt="img" />
                     </div>
                 </div>
             </div>
@@ -99,7 +98,7 @@ export default function CodeEx() {
                     </div>
 
                     <div className={styles.codeWrapper}>
-                        <div className={styles.codeContainer}></div>
+                        <img src="/project-img/img4-u.png" alt="img" />
                     </div>
 
                 </div>
