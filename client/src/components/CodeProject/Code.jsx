@@ -12,7 +12,7 @@ const projects = [
         
     },
     {
-        title: "Utente",
+        title: "Utente & Utenti",
         src: "img2.jpg",
         link: "/utente"
     },
