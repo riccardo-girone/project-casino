@@ -18,7 +18,7 @@ export default function Puntate() {
                 </div>
 
                 <div className={styles.rightContainer}>
-                    <div className={styles.placeolder}></div>
+                    <img src="/project-img/img1-p.png" alt="img" />
                 </div>
             </div>
 

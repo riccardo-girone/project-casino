@@ -37,11 +37,12 @@
         align-items: center;
         justify-content: flex-end;
         
-        .placeolder {
+        img {
             height: clamp(20rem, 45vw, 70rem);
             width: clamp(15rem, 32vw, 50rem);
-            background-color: rgba(0, 0, 0, 0.822);
             border-radius: 20px;
+            object-fit: cover;
+            object-position: 0;
         }
     }
 }

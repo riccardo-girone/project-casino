@@ -15,9 +15,7 @@ export default function CodeEx() {
                 </div>
 
                 <div className={styles.codeWrapper}>
-                    <div className={styles.codeContainer}>
-
-                    </div>
+                    <img src="/project-img/img1-p.png" alt="img" />
                 </div>
             
 
@@ -53,7 +51,7 @@ export default function CodeEx() {
                 </div>
 
                 <div className={styles.codeWrapper}>
-                    <div className={styles.codeContainer}></div>
+                    <img src="/project-img/img2-p.png" alt="img" />
                 </div>
             </div>
         </div>

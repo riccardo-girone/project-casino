@@ -1,5 +1,5 @@
 .container {
-    height: 150vh;
+    height: 160vh;
     margin-left: clamp(4rem, 7vw, 10rem);
     margin-right: clamp(4rem, 7vw, 10rem);
     font-family: "Montserrat", sans-serif;
@@ -25,11 +25,13 @@
             justify-content: flex-start;
             margin-top: clamp(2rem, 3vw, 7rem);
             margin-bottom: clamp(2rem, 3vw, 7rem);
-            .codeContainer {
-                height: clamp(10rem, 12vw, 35rem);
+            
+            img {
+                height: clamp(10rem, 20vw, 35rem);
                 width: clamp(15rem, 40vw, 60rem);
-                background-color: rgba(0, 0, 0, 0.822);
-                border-radius: 20px;
+                object-fit: contain;
+                object-position: 0;
+        
             }
         }
     
