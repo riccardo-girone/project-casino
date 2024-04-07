@@ -11,7 +11,8 @@ export default function Puntate() {
 
                     <div className={styles.textContainer}>
                         <div className={styles.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum nulla.
+                            il sistema di scommesse è suddiviso in 2 parti distinte: la parte di scrittura nel file e la parte di aggiunta dei crediti al contatore.
+                           
                         </div>
                     </div>
                 </div>

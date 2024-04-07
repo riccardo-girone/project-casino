@@ -11,8 +11,8 @@ export default function Main() {
                     
 
                     <div className={styles.textContainer}>
-                        <div className={styles.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum nulla.
+                        <div className={styles.text}> 
+                        Per questo progetto, ci siamo immersi nel mondo dei giochi da casinò, sviluppando in Java un'esperienza coinvolgente. Abbiamo implementato due classici: la roulette e il blackjack, arricchendoli con un sistema di puntate e di registrazione dei giocatori.
                         </div>
                     </div>
                 </div>

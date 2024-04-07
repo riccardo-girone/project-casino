@@ -10,7 +10,7 @@ export default function CodeEx() {
             <div className={styles.contentContainer}>
                 <div className={styles.contentText}>
                     <div>
-                      Vestibulum diam odio, condimentum in orci sed, aliquam bibendum amet, consectetur adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar dolor aliquet at. Vestibulum diam odio, condimentum in orci sed, aliquam bibendum nulla. adipiscing elit. Pellentesque fringilla tellus at nibh sagittis mattis. Fusce pulvinar nisl dictum lacus posuere porta. Mauris commodo velit magna, sed pulvinar
+                        come prima cosa il main e minimale, il main runna la classe utente
                     </div>
                 </div>
 
