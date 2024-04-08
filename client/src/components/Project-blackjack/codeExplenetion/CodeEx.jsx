@@ -15,48 +15,20 @@ export default function CodeEx() {
                         metodi sono:
                     </div>
                     <div>
-                        1) <code>gestione()</code>: dove si va a chiamare il menu che chiede cosa si vuole fare tra:
-                        registrati, accedi e esci, in base alla scelta viene richiamato un altro metodo.
-                        Es: premo 1 e mi fa registrare richiamando il metodo <code>registrati()</code>              
+                        1) <code>play()</code>: la classe play serve innanzi tutto ad inizializzare i mazzi e le carte, successivamente abbiamo le 2 seguenti condizioni <code>while (playerHand. calculateValue() minore 21)</code> <code>while (dealerHand.calculateValue() minore 17)</code> che servono rispettivamente a chiedere se si vuole pescare in altra carta se si ha un valore minore di 21 e a far pescare una carta al banco se il valore è minore di 17 <code>registrati()</code>              
                     </div>
                         <div className={styles.codeWrapper}>
                             <img src="/project-img/img2-b.png" alt="img" />
                         </div>
                     <div>
-                        2) <code>registrati()</code>: il metodo registrati sostanzialmente serve a far registrare un
-                        nuovo utente, facendo inserire email e password, successivamente si Istanzia
-                        la classe utente passando l'email, la password e i crediti (che di base per i
-                        nuovi utenti sono un milione in modo da poter subito iniziare a giocare).
-                        La parte finale del metodo gestisce il salvataggio dell'utente nel file, in modo
-                        che la prossima volta che vuole giocare non debba ricreare un account ma ha <code>FileWriter()</code>
-                        già il suo salvato, questo salvataggio avviene con un'inizializzazione del
-                        passando il nome del file e “true” (quest'ultimo serve ad aprire il
-                        file in modalità append in modo da non sovrascrivere ogni volta il file), infine
-                        facciamo scrivere l'utente nel file tramite un semplice comando <code>write.write(utente + “\n”)</code>
+                        2) <code>classe card</code>: La classe Card ha due membri privati: suit e rank, che rappresentano rispettivamente il seme e il valore della carta.Il costruttore Card(String suit, String rank) prende due argomenti, suit e rank, e li assegna ai membri suit e rank dell'oggetto Card corrente.I metodi getSuit() e getRank() sono metodi di accesso che restituiscono rispettivamente il seme e il valore della carta.Il metodo toString() è sovrascritto per restituire una rappresentazione testuale della carta. Restituisce il valore della carta seguito da "di" e il seme della carta. Ad esempio, se il valore della carta è "Asso" e il seme è "Cuori", il metodo toString() restituirebbe "Asso di Cuori"
 
                     </div>
                         <div className={styles.codeWrapper}>
                             <img src="/project-img/img3-b.png" alt="img" />
                         </div>
                     <div>
-                        3)<code>accedi()</code>: il metodo accedi serve a far accedere gli utenti che hanno già creato
-                        un proprio account. Inizialmente chiede di inserire l'email e la password,
-                        successivamente apre il file con tutti gli utenti in lettura servendosi del
-                        <code>BufferedReader()</code> e del ()<code>FileReader()</code> (li usa tutti e due in modo da essere più
-                        veloce nel leggere un grasso quantità di caratteri in un file di testo).
-                        Inizializzando riga per leggere le righe nel file, autenticazione per vedere se le
-                        credenziali sono corrette (che inizialmente è inizializzato a false) e utente.
-
-                        La parte più complicata in accedi è la parte dove confronta le credenziali
-                        inserite con quelle nel file, è presente un while che legge le righe finchè non
-                        finisce il file, all' interno del while si crea un array composto da email alla cella
-                        0 e password alla cella 1 (tutto questo è permesso grazie a .split(“ “),
-                        successivamente l' array si dive nelle varie parti dell' utente (che sono email,
-                        password e crediti). Tramite un if si controlla se le credenziali inserite
-                        dall'utente siano quelle prese nel file, se sono corrette ad autenticazione
-                        viene assegnato true. Infine con un if si controlla se il valore di autenticazione
-                        è true se è effettivamente così ci fa proseguire alla scelta del gioco, altrimenti
-                        ci fa reinserire le credenziali.
+                        3)<code>classe deck</code>: La classe Deck ha un membro privato cards che è un ArrayList di oggetti Card. Questo ArrayList tiene traccia delle carte nel mazzo.Il costruttore <code>Deck()</code> inizializza l'ArrayList cards e quindi crea un mazzo standard di carte. Vengono definiti due array di stringhe, suits e ranks, che rappresentano rispettivamente i semi delle carte e i valori delle carte. Viene quindi utilizzato un doppio ciclo for per creare tutte le possibili combinazioni di carte (ad esempio, tutti i semi con tutti i valori) e aggiungere ogni carta all'ArrayList cards. Alla fine, le carte vengono mescolate utilizzando il metodo <code>Collections.shuffle(cards)</code>.Il metodo <code>drawCard()</code> estrae e restituisce la prima carta dal mazzo rimuovendola dall'ArrayList cards utilizzando il metodo cards.remove(0)
                     </div>
 
                     <div className={styles.codeWrapper}>
