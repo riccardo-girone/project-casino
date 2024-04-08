@@ -18,7 +18,7 @@ export default function Roulette() {
                 </div>
 
                 <div className={styles.rightContainer}>
-                    <div className={styles.placeolder}></div>
+                    <img src="/project-img/img1-b.png" alt="img" />
                 </div>
             </div>
 
