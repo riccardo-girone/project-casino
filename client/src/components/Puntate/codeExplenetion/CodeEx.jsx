@@ -25,11 +25,11 @@ export default function CodeEx() {
                     </div>
 
                     <div>
-                        <code>if (line.contains(email))</code>: Questa istruzione verifica se la riga corrente contiene la stringa email. Questo è probabilmente un modo per individuare una riga specifica del file che corrisponde all'email fornita.
+                        <code>if (line.contains(email))</code>: Questa istruzione verifica se la riga corrente contiene la stringa email. Questo è un modo per individuare una riga specifica del file che corrisponde all'email fornita.
                     </div>
 
                     <div>
-                        <code>line = email + " " + password + " " + crediti;</code>: Se la riga contiene l'email, viene riscritta includendo l'email stessa, la password e il numero di crediti separati da spazi. Questa sembra essere una forma di aggiornamento dei dati associati all'email nel file.
+                        <code>line = email + " " + password + " " + crediti;</code>: Se la riga contiene l'email, viene riscritta includendo l'email stessa, la password e il numero di crediti separati da spazi.
                     </div>
 
                     <div>

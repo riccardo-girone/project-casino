@@ -13,7 +13,7 @@ export default function CodeEx() {
                         1) <code>play()</code>: il metodo play innanzitutto serve a far vedere il menu, dopo di che tramite uno [switch case] possiamo scegliere tutti i vari casi              
                     </div>
                         <div className={styles.codeWrapper}>
-                            <img src="/project-img/img1-r.png" alt="img" />
+                            <img src="/project-img/img3-r.png" alt="img" />
                         </div>
                     <div>
                         2) <code>coloreRoulette</code>: la classe colore serve a generare un colore casuale tra nero e rosso e lo converte in 0 e 1, e grazie ad un if riesce a determinare il colore 
