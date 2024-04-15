@@ -26,7 +26,7 @@ export default function CodeEx() {
                         2) <code>registrati()</code>: il metodo registrati sostanzialmente serve a far registrare un
                         nuovo utente, facendo inserire email e password, successivamente si Istanzia
                         la classe utente passando l'email, la password e i crediti (che di base per i
-                        nuovi utenti sono un milione in modo da poter subito iniziare a giocare).
+                        nuovi utenti sono cento in modo da poter subito iniziare a giocare).
                         La parte finale del metodo gestisce il salvataggio dell'utente nel file, in modo
                         che la prossima volta che vuole giocare non debba ricreare un account ma ha <code>FileWriter()</code>
                         già il suo salvato, questo salvataggio avviene con un'inizializzazione del
