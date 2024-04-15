@@ -43,8 +43,8 @@ export default function CodeEx() {
                         un proprio account. Inizialmente chiede di inserire l'email e la password,
                         successivamente apre il file con tutti gli utenti in lettura servendosi del
                         <code>BufferedReader()</code> e del ()<code>FileReader()</code> (li usa tutti e due in modo da essere più
-                        veloce nel leggere un grasso quantità di caratteri in un file di testo).
-                        Inizializzando riga per leggere le righe nel file, autenticazione per vedere se le
+                        veloce nel leggere un grossa quantità di caratteri in un file di testo).
+                        Inizializzand read per leggere le righe nel file, autenticazione per vedere se le
                         credenziali sono corrette (che inizialmente è inizializzato a false) e utente.
 
                         La parte più complicata in accedi è la parte dove confronta le credenziali

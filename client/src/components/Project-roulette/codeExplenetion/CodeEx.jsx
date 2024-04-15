@@ -10,53 +10,20 @@ export default function CodeEx() {
             <div className={styles.contentContainer}>
                 <div className={styles.contentText}>
                     <div>
-                        la classe Utenti è la classe da cui parte tutto il programma e gestisce la registrazione
-                        e l'accesso di un utente, al suo interno presenta 3 metodi e il costruttore, i tre
-                        metodi sono:
-                    </div>
-                    <div>
-                        1) <code>gestione()</code>: dove si va a chiamare il menu che chiede cosa si vuole fare tra:
-                        registrati, accedi e esci, in base alla scelta viene richiamato un altro metodo.
-                        Es: premo 1 e mi fa registrare richiamando il metodo <code>registrati()</code>              
+                        1) <code>play()</code>: il metodo play innanzitutto serve a far vedere il menu, dopo di che tramite uno [switch case] possiamo scegliere tutti i vari casi              
                     </div>
                         <div className={styles.codeWrapper}>
                             <img src="/project-img/img1-r.png" alt="img" />
                         </div>
                     <div>
-                        2) <code>registrati()</code>: il metodo registrati sostanzialmente serve a far registrare un
-                        nuovo utente, facendo inserire email e password, successivamente si Istanzia
-                        la classe utente passando l'email, la password e i crediti (che di base per i
-                        nuovi utenti sono un milione in modo da poter subito iniziare a giocare).
-                        La parte finale del metodo gestisce il salvataggio dell'utente nel file, in modo
-                        che la prossima volta che vuole giocare non debba ricreare un account ma ha <code>FileWriter()</code>
-                        già il suo salvato, questo salvataggio avviene con un'inizializzazione del
-                        passando il nome del file e “true” (quest'ultimo serve ad aprire il
-                        file in modalità append in modo da non sovrascrivere ogni volta il file), infine
-                        facciamo scrivere l'utente nel file tramite un semplice comando <code>write.write(utente + “\n”)</code>
+                        2) <code>coloreRoulette</code>: la classe colore serve a generare un colore casuale tra nero e rosso e lo converte in 0 e 1, e grazie ad un if riesce a determinare il colore 
 
                     </div>
                         <div className={styles.codeWrapper}>
                             <img src="/project-img/img3-r.png" alt="img" />
                         </div>
                     <div>
-                        3)<code>accedi()</code>: il metodo accedi serve a far accedere gli utenti che hanno già creato
-                        un proprio account. Inizialmente chiede di inserire l'email e la password,
-                        successivamente apre il file con tutti gli utenti in lettura servendosi del
-                        <code>BufferedReader()</code> e del ()<code>FileReader()</code> (li usa tutti e due in modo da essere più
-                        veloce nel leggere un grasso quantità di caratteri in un file di testo).
-                        Inizializzando riga per leggere le righe nel file, autenticazione per vedere se le
-                        credenziali sono corrette (che inizialmente è inizializzato a false) e utente.
-
-                        La parte più complicata in accedi è la parte dove confronta le credenziali
-                        inserite con quelle nel file, è presente un while che legge le righe finchè non
-                        finisce il file, all' interno del while si crea un array composto da email alla cella
-                        0 e password alla cella 1 (tutto questo è permesso grazie a .split(“ “),
-                        successivamente l' array si dive nelle varie parti dell' utente (che sono email,
-                        password e crediti). Tramite un if si controlla se le credenziali inserite
-                        dall'utente siano quelle prese nel file, se sono corrette ad autenticazione
-                        viene assegnato true. Infine con un if si controlla se il valore di autenticazione
-                        è true se è effettivamente così ci fa proseguire alla scelta del gioco, altrimenti
-                        ci fa reinserire le credenziali.
+                        3)<code>numeriMultipli</code>: Questo codice gestisce le puntate su numeri multipli alla roulette e determina se l'utente ha vinto o perso, aggiornando il saldo dell'utente di conseguenza.
                     </div>
 
                     <div className={styles.codeWrapper}>
